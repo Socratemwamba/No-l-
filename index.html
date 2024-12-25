@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Noël !</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            animation: fadeIn 1s ease-in;
+        }
+        h1 {
+            color: #a10000;
+            font-size: 5vw; 
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+            font-family: 'Georgia', serif;
+        }
+        .message {
+            font-size: 2.5vw; 
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s;
+        }
+        .message:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        img {
+            width: 40%;  /* Ajusté la taille ici */
+            max-width: 300px;  /* Ajusté le maximum ici */
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 1.5vw;
+            color: #666;
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 2vw;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 6vw;
+            }
+            .message {
+                font-size: 4vw; 
+            }
+            .footer {
+                font-size: 3.5vw; 
+            }
+            img {
+                width: 90%;  
+            }
+            .whatsapp-button {
+                font-size: 4vw;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Joyeux Noël !</h1>
+    <div class="message">
+        Moi Socrate Edgard je vous souhaite un joyeux Noël que cette saison festive vous apporte paix, joie et amour mes trés chers Ingenieurs.
+    </div>
+    <div class="images">
+        <img src="https://img.freepik.com/vecteurs-libre/sapin-decorations-cadeaux-bonnet-noel_74855-741.jpg" alt="Sapin de Noël">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQCqGMsD66Q7C-M8ysBMBArG2L-Brk5YnWQ&s" alt="">
+        <img src="https://scontent.ffbm1-1.fna.fbcdn.net/v/t39.30808-6/471205025_122167935716268326_310354041779273218_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGaVHbXkSA56NiFw7j_3anvznKUiaQQwrPOcpSJpBDCs2fwYzmeNCfLw8ULxfDmFZuZSsTVlpmmHXpxqgg4RHt-&_nc_ohc=LpN9A8zQ77kQ7kNvgHzEGpd&_nc_zt=23&_nc_ht=scontent.ffbm1-1.fna&_nc_gid=AJ5HJQs2QEnKuV_C7xuU4wc&oh=00_AYCRB1E_y6OKOlQgmBjAa7m-ecHK1J776zeZRLlXRUsvQw&oe=6770B25F" alt="Cadeaux de Noël">
+        <img src="https://scontent.ffbm1-1.fna.fbcdn.net/v/t39.30808-6/471701172_122167935806268326_8307301946556459297_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHf_xYT5sLuukCtvohVs93U0j574HGf1XfSPnvgcZ_Vd0TCEHybYgdH06_y2c1T-PS8IoHWCG_LmoZvvNG1H3XR&_nc_ohc=GCXc2yNmIocQ7kNvgFuqUg5&_nc_zt=23&_nc_ht=scontent.ffbm1-1.fna&_nc_gid=AfHjoZcNxCLdVJlPERsAec8&oh=00_AYC9PHevnZYvMZ_PqWpemU_QyK7r9rxU-Si2HUhBe2Aa1w&oe=6770C925" alt="">
+    </div>
+    <div class="footer">
+        Meilleurs vœux pour cette nouvelle année !
+    </div>
+    <a href="https://wa.me/243971400661" class="whatsapp-button">Laissez-moi un retour sur WhatsApp</a>
+</body>
+</html>
+
